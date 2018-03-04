@@ -135,7 +135,13 @@
             "id": "Imurgod",
             "department": "",
             "info": ""
-        }            
+        },            
+        {
+            "name": "胡鹏飞",
+            "id": "hupengfei",
+            "department": "图鉴组",
+            "info": "美术外包，日本渠道"
+        },
     ],
     "edges": [
         {
@@ -201,12 +207,17 @@
         {
             "source": "link",
             "target": "honghao",
-            "weight": 1
+            "weight": 0
         },
         {
             "source": "link",
             "target": "bona",
-            "weight": 1
+            "weight": 0.1
+        },
+        {
+            "source": "link",
+            "target": "hupengfei",
+            "weight": 0.9
         },
         {
             "source": "xiaoyu",
